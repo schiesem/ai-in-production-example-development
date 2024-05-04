@@ -375,41 +375,4 @@ def get_weight_label(folder_name):
 print(f"Import form {__name__} is working")
 
 if __name__ == "__main__":
-    import warnings
-    # Suppress FutureWarning messages
-    warnings.simplefilter(action='ignore', category=FutureWarning)
-
-    #--------- handle the folders and files ---------#
-    RAW_DATA_DIR = "D:\\work-hsu\\08_code_programms\\ai-in-production-example-development\\use-case-2\\data\\raw"
-    PROCESSED_DATA_DIR = "D:\\work-hsu\\08_code_programms\\ai-in-production-example-development\\use-case-2\\data\\processed"
-
-    files_list = parse_files(RAW_DATA_DIR, recursive=True)
-
-    #--------- create the dictionary with raw data ---------#
-    data_dict = create_data_dict(files_list)
-
-    # creating the data frames and Extend Dictionaries
-    for file_dict in tqdm(data_dict.values(), desc="Creating Data Frames and Extend Dictionary"):
-        #crreate and insert dataframe of device data (time series data)
-        for device_dict in file_dict[FILE_DEVICES].values():
-            create_dict_item(device_dict, DEVICE_DATA_FRAME, create_data_frame(device_dict))
-        # create and append weight label (kg)
-        create_dict_item(file_dict, WEIGHT_LABEL, get_weight_label(file_dict[FILE_FOLDER]))
-        # create and append freq label (herz)
-        create_dict_item(file_dict, FREQUENCY_LABEL, get_frequency_label(file_dict[FILE_FOLDER]))
-        # create and append moving label (up down)
-        for device_dict in file_dict[FILE_DEVICES].values():
-            #device_data_frame = create_data_frame(device_dict)
-            moving_label = get_moving_label(device_dict[DEVICE_DATA_FRAME], device_dict[DEVICE_DATA_FRAME].columns[3])
-        create_dict_item(file_dict, MOVING_LABEL, moving_label)
-
-    #--------- features ---------#
-    print("Creating Feature Frame")
-    feature_frame = create_feature_frame(data_dict)
-
-    #example for selection of data of the frame
-    #test_select = feature_frame[feature_frame["MOVING_LABEL"]=="up"]
-
-    save_file(feature_frame, PROCESSED_DATA_DIR, "df_feature_frame", "pickle")
-
-    print("RUN SUCCEDED")
+    print("Main Running")
