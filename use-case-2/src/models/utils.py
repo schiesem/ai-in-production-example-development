@@ -30,16 +30,33 @@ def create_model():
 
     return model
 
-def train_model(model, X, y, epochs, batch_size):
+def train_model(model, X, y, X_test, y_test, epochs, batch_size):
     import matplotlib.pyplot as plt
 
     # train the parameters
-    history = model.fit(X, y, epochs=epochs, batch_size = batch_size, verbose=0)
+    history = model.fit(X, y, epochs=epochs, batch_size = batch_size, verbose=1)
 
-    _, accuracy = model.evaluate(X, y,  verbose=0)
+    error, accuracy = model.evaluate(X_test, y_test,  verbose=1)
     print('Accuracy: %.2f' % (accuracy*100))
 
     return history
+
+def save_model(model, file_path, model_name : str):
+    import os 
+    import pickle
+    save_path = os.path.join(file_path, model_name)
+    with open(f"{save_path}.pickle", "wb") as pickle_file:
+        pickle.dump(model, pickle_file)
+    
+    print(f"model saved at path:{save_path}")
+
+def load_model(file_path):
+    import os
+    import pickle
+    with open(file_path, "rb") as pickle_file:
+        pickle_data = pickle.load(pickle_file)
+        print(f"model loaded from path:{file_path}")
+        return(pickle_data)
 
 if __name__ == "__main__":
     import sys
@@ -88,6 +105,7 @@ if __name__ == "__main__":
     # model training
     history = train_model(model, X, Y, epochs=25 , batch_size=5)
 
+    #history plots
     print("Accuracy: ")
     print(history.history["accuracy"])
     print("Loss:")
