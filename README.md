@@ -13,7 +13,8 @@ Zwei Fallbeispiele für die Umsetzung einer Exemplarischen Entwicklung finden si
 
 | <img src="/templates/figures/figures-DMME.png" width="450"/>|
 |:--:|
-| Abb.1: des Data mining methodology for engineering applications (DMME) Entwicklungprozesses nach Huber et. al[^5] |
+| Abb.1: Data mining methodology for engineering 
+applications (DMME) Entwicklungprozesses nach Huber et. al[^5] |
 
 | <img src="/templates/figures/process-steps.png" width="450"/>|
 |:--:|
@@ -50,4 +51,4 @@ If you are using a BiBTex-file, you can copy the following:
 [^2]: Schieseck, M.; Topalis, P.; Fay, A.: A Graphical Modeling Language for Artificial Intelligence Applications in Automation Systems. In: 2023 IEEE 21st International Conference on Industrial Informatics (INDIN). Lemgo, DE, 2023.
 [^3]: Gebru, T., Morgenstern, J., Vecchione, B., Vaughan, J. W., Wallach, H., Iii, H. D., & Crawford, K. (2021). Datasheets for datasets. Communications of the ACM, 64(12), 86-92.
 [^4]: Mitchell, M., Wu, S., Zaldivar, A., Barnes, P., Vasserman, L., Hutchinson, B., ... & Gebru, T. (2019, January). Model cards for model reporting. In Proceedings of the conference on fairness, accountability, and transparency (pp. 220-229).
-[^5] Huber, S.; Wiemer, H.; Schneider, D.; Ihlenfeldt, S.: DMME: Data mining methodology for engineering applications–a holistic extension to the CRISP-DM model. Procedia CIRP 79/, S. 403–408, 2019.
+[^5]: Huber, S.; Wiemer, H.; Schneider, D.; Ihlenfeldt, S.: DMME: Data mining methodology for engineering applications–a holistic extension to the CRISP-DM model. Procedia CIRP 79/, S. 403–408, 2019.
