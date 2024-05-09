@@ -1,4 +1,4 @@
-example-project
+example-project 1
 ==============================
 
 example
