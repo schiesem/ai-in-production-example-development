@@ -18,8 +18,8 @@ Das Projekt indem die Daten aufgezeichnet werden wird vom Zentrum für Digitalis
 ## Composition
 
 Der Datensatz besteht aus:
-- 60 Aufnahmen, bei denen der Riemen verschlissen ist -> [/data/raw/60Hz_WZ1710kg](Daten-Verschlissen)
-- 128 Aufnahmen, bei denen der Riemen heile ist -> [/data/raw/60Hz_WZ1710kg](Daten-Gut)
+- 60 Aufnahmen, bei denen der Riemen verschlissen ist -> [Daten Verschlissen](/data/raw/60Hz_WZ1710kg)
+- 128 Aufnahmen, bei denen der Riemen heile ist -> [Daten Gut](/data/raw/60Hz_WZ1710kg)
 
 ### What do the instances that comprise the dataset represent?
 
@@ -52,11 +52,11 @@ this section._
 
 ### Was the “raw” data saved in addition to the preprocessed/cleaned/labeled data (e.g., to support unanticipated future uses)?
 
-Die rohen Daten befinden sich in [/data/raw/60Hz_WZ1710kg](Daten-Gut) und [/data/raw/60Hz_WZ1710kg](Daten-Verschlissen). Die Daten werden durch ein Skript und entsprechende Funktionen aus data.utils vorverarbeitet. Dies geschieht wie folgt:
+Die rohen Daten befinden sich in [Daten-Gut](/data/raw/60Hz_WZ1710kg) und [60Hz_WZ1710kg](Daten-Verschlissen/data/raw/). Die Daten werden durch ein Skript und entsprechende Funktionen aus data.utils vorverarbeitet. Dies geschieht wie folgt:
 - Einlesen der rohen Daten
 - Zuschneiden auf die Länge in der der Bewegungsprozess über den Prozesskanal Antrieb Gestartet(1) aktiv ist.
 - Anschließend werden die Daten von ca. 1000 Messwerte für 5 Sekunden auf exakt 100 Messwerte resampled
-- Dann werden die Daten in  [/data/processed](Daten-Vorverarbeitet) gespeichert als .pickle File.
+- Dann werden die Daten in  [Daten-Vorverarbeitet](/data/processed) gespeichert als .pickle File.
 
 Die Struktur der Daten in den .pickle-Files sieht wie folgt aus:
 
@@ -175,4 +175,4 @@ Die Struktur der Daten in den .pickle-Files sieht wie folgt aus:
 
 ### Is the software used to preprocess/clean/label the instances available?
 
-Ja, der Code für die Vorverarbeitung kann im Jupyter Notebook unter [notebooks/project.ipynb](Jupyter-Notebook) nachgelesen werden.
+Ja, der Code für die Vorverarbeitung kann im Jupyter Notebook unter [Jupyter-Notebook](notebooks/project.ipynb) nachgelesen werden.
