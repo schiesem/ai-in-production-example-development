@@ -6,19 +6,19 @@ Fallbeispiel 2
 
 ## Leitfaden
 
-- Abbildung mit CRISP-DM
-
-| <img src="/templates/.png"/>|
+| <img src="/templates/figres/figures-DMME.png"/>|
 |:--:|
-| Abbildung des DMME Entwicklungprozesses nach [^2] |
+| Abbildung des Data mining methodology for engineering applications (DMME) Entwicklungprozesses nach Huber et. al[^2] |
 
-- Abbildung mit Tabelle []
+| <img src="/templates/figres/process-steps.png"/>|
+|:--:|
+| Abbildung des Data mining methodology for engineering applications (DMME) Entwicklungprozesses nach Huber et. al[^2] |
 
-- [Data Sheet Template](templates/datasheets/datasheet-for-dataset-template.md) [^3]
+- [Data Sheet Template](templates/datasheets/datasheet-for-dataset-template.md)[^3]
 
-- [Model Card Template](templates/modelcards/model-card-template.md) [^4]
+- [Model Card Template](templates/modelcards/model-card-template.md)[^4]
 
-- [Mehr Informationen zum Grafischen Beschreibungsmittel](https://github.com/schiesem/GML-AIAAS) [^5]
+- [Mehr Informationen zum Grafischen Beschreibungsmittel](https://github.com/schiesem/GML-AIAAS)[^5]
 
 ## Fallbeispiel 1
 Kurzbeschreibung des Fallbeispiels (tbd.)
