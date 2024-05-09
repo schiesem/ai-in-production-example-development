@@ -1,6 +1,6 @@
 # KI in der Produktion - Leitfaden für eine Beispielentwicklung
 
-Templates 
+- [Projekt Folder Template](templates/folder-structure)
 Fallbeispiel 1 
 Fallbeispiel 2
 
@@ -10,13 +10,11 @@ Fallbeispiel 2
 
 - Abbildung mit Tabelle
 
-- Projekt Folder Template [Projekt Folder Template](templates/folder-structure)
+- [Data Sheet Template](templates/datasheets/datasheet-for-dataset-template.md)
 
-- Data Sheet Template
+- [Model Card Template](templates/modelcards/model-card-template.tex)
 
-- Model Card Template
-
-
+- [Grafisches Beschreibungsmittel für KI-Anwendungen](https://github.com/schiesem/GML-AIAAS)
 
 ## Fallbeispiel 1
 Kurzbeschreibung des Fallbeispiels
