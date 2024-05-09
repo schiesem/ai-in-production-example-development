@@ -29,3 +29,16 @@ Kurzbeschreibung des Fallbeispiels (tbd.)
 - [Jupyter Notebook](use-case-2/notebooks/project.ipynb)
 - [Datasheet](use-case-2/reports/datasheet.md)
 - [Modelcard](use-case-2/reports/model-card.md)
+
+# How to cite
+
+This guideline is currently in a publishing process as a conference paper.
+In case you want to use the presented use-cases, the guidline or the repo, please cite as:
+```
+tbd.
+```
+If you are using a BiBTex-file, you can copy the following:
+```
+@inProceedings{tbd.}
+}
+```
