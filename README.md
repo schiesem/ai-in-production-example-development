@@ -8,17 +8,17 @@ Fallbeispiel 2
 
 - Abbildung mit CRISP-DM
 
-| <img src="./images/gml-formalization.png"/>|
+| <img src="/templates/.png"/>|
 |:--:|
-| Formalization with UML of GML-AIAAS |
+| Abbildung des DMME Entwicklungprozesses nach [^2] |
 
 - Abbildung mit Tabelle []
 
-- [Data Sheet Template](templates/datasheets/datasheet-for-dataset-template.md)[^2]
+- [Data Sheet Template](templates/datasheets/datasheet-for-dataset-template.md) [^3]
 
-- [Model Card Template](templates/modelcards/model-card-template.md)[^3]
+- [Model Card Template](templates/modelcards/model-card-template.md) [^4]
 
-- [Mehr Informationen zum Grafischen Beschreibungsmittel](https://github.com/schiesem/GML-AIAAS)[^4]
+- [Mehr Informationen zum Grafischen Beschreibungsmittel](https://github.com/schiesem/GML-AIAAS) [^5]
 
 ## Fallbeispiel 1
 Kurzbeschreibung des Fallbeispiels (tbd.)
