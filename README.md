@@ -42,7 +42,7 @@ tbd.
 ```
 If you are using a BiBTex-file, you can copy the following:
 ```
-@inProceedings{tbd.}
+@inProceedings{tbd.
 }
 ```
 
