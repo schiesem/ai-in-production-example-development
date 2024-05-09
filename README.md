@@ -13,8 +13,7 @@ Zwei Fallbeispiele für die Umsetzung einer Exemplarischen Entwicklung finden si
 
 | <img src="/templates/figures/figures-DMME.png" width="450"/>|
 |:--:|
-| <p>Abb.1: Data mining methodology for engineering  <br>
-applications (DMME) Entwicklungprozesses nach Huber et. al[^5] <br></p>|
+| <p>Abb.1: Data mining methodology for engineering  <br> applications (DMME) Entwicklungprozesses nach Huber et. al[^5] </p>|
 
 | <img src="/templates/figures/process-steps.png" width="450"/>|
 |:--:|
