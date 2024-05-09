@@ -10,7 +10,7 @@ Fallbeispiel 2
 
 - Abbildung mit Tabelle
 
-- Projekt Folder Template [Projekt Folder Template](templates/CONTRIBUTING.md)
+- Projekt Folder Template [Projekt Folder Template](templates/folder-structure)
 
 - Data Sheet Template
 
