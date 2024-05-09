@@ -1,4 +1,4 @@
-# KI in der Produktion - Leitfaden für eine Beispielentwicklung
+# KI in der Produktion - Leitfaden und Beispielentwicklung
 Dieses Repo stellt einen Leitfaden und zwei Fallbeispiele für die Entwicklung von KI in Produktionssystemen bereit.
 
 > [!CAUTION]
