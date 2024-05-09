@@ -20,14 +20,14 @@ Zwei Fallbeispiele für die Umsetzung einer Exemplarischen Entwicklung finden si
 | Abb.2: Details zu den einzelnen DMME Schritten|
 
 ## Fallbeispiel 1
-Kurzbeschreibung des Fallbeispiels (tbd.)
+Im ersten Fallbeispiel wird Computer Vision eingesetzt, um die Qualität von Bauteilen innerhalb einer Produktionslinie zu überwachen.
 - [README Fallbeispiel 1](use-case-1/README.md)
 - [Code-Übersicht Jupyter Notebook](tbd.)
 - [Datasheet](use-case-1/reports/datasheet.md)
 - [Modelcard](use-case-1/reports/model-card.md)
 
 ## Fallbeispiel 2
-Kurzbeschreibung des Fallbeispiels (tbd.)
+Im zweiten Fallbeispiel werden Zeitreihenanalysen eingesetzt, um den Zustand einer Produktionsanlage zu überwachen.
 - [README Fallbeispiel 2](use-case-2/README.md)
 - [Code-Übersicht Jupyter Notebook](use-case-2/notebooks/project.ipynb)
 - [Datasheet](use-case-2/reports/datasheet.md)
