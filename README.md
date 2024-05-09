@@ -6,11 +6,11 @@ Fallbeispiel 2
 
 ## Leitfaden
 
-| <img src="/templates/figres/figures-DMME.png"/>|
+| <img src="/templates/figures/figures-DMME.png"/>|
 |:--:|
 | Abbildung des Data mining methodology for engineering applications (DMME) Entwicklungprozesses nach Huber et. al[^2] |
 
-| <img src="/templates/figres/process-steps.png"/>|
+| <img src="/templates/figures/process-steps.png"/>|
 |:--:|
 | Abbildung des Data mining methodology for engineering applications (DMME) Entwicklungprozesses nach Huber et. al[^2] |
 
