@@ -8,8 +8,8 @@ Dieses Repo stellt einen Leitfaden und zwei Fallbeispiele für die Entwicklung v
 Zur Entwicklung von KI-Anwendungen in der Produktion wird zunächst das folgende [Projekt Folder Template](templates/folder-structure)[^1] für die Ordnerstruktur empfohlen. Für den Entwicklungsprozess empfielt das Prozessmodell aus Abb.1 einzelne Schritte die in Abb. 3 genauer spezifiziert werden. Der Ist-Stand der Anlage und die KI-Anwendung sollten mit dem [grafischen Beschreibungsmittel](https://github.com/schiesem/GML-AIAAS)[^2] modelliert werden. Die Informationen über die verwendeten Daten sollten mit einem [Data Sheet Template](templates/datasheets/datasheet-for-dataset-template.md)[^3] und die Infomrationen über das verwendete Modell mit einem [Model Card Template](templates/modelcards/model-card-template.md)[^4] festgehalten werden.
 
 Zwei Fallbeispiele für die Umsetzung einer Exemplarischen Entwicklung finden sich hier
-- [Fallbeispiel 1](use-case-1)
-- [Fallbeispiel 2](use-case-2)
+- [Code für Fallbeispiel 1](use-case-1)
+- [Code für Fallbeispiel 2](use-case-2)
 
 | <img src="/templates/figures/figures-DMME.png" width="450"/>|
 |:--:|
