@@ -1,125 +1,104 @@
-# Model card for "add model name here"
+# Model card for "U-Net für die Segmentierung von Primerfehlstellen"
 
-Sections and prompts from the [model cards paper](https://arxiv.org/abs/1810.03993), v2.
+- [Modelldetails](#model-details)
+- [Verwendungszweck](#intended-use)
+- [Faktoren](#factors)
+- [Metriken](#metrics)
+- [Evaluationsdaten](#evaluation-data)
+- [Trainingsdaten](#training-data)
+- [Quantitative Analysen](#quantitative-analyses)
+- [Ethische Überlegungen](#ethical-considerations)
+- [Vorbehalte und Empfehlungen](#caveats-and-recommendations)
 
-Jump to section:
+## Modelldetails
 
-- [Model details](#model-details)
-- [Intended use](#intended-use)
-- [Factors](#factors)
-- [Metrics](#metrics)
-- [Evaluation data](#evaluation-data)
-- [Training data](#training-data)
-- [Quantitative analyses](#quantitative-analyses)
-- [Ethical considerations](#ethical-considerations)
-- [Caveats and recommendations](#caveats-and-recommendations)
-
-## Model details
-
-_Basic information about the model._
-
+_Grundlegende Informationen über das Modell._
 Review section 4.1 of the [model cards paper](https://arxiv.org/abs/1810.03993).
 
-- Person or organization developing model
-- Model date
-- Model version
-- Model type
-- Information about training algorithms, parameters, fairness constraints or other applied
-  approaches, and features
-- Paper or other resource for more information
-- Citation details
-- License
-- Where to send questions or comments about the model
+- Person oder Organisation, die das Modell entwickelt
+- Datum des Modells
+- Version des Modells
+- Modell-Typ
+- Informationen über Trainingsalgorithmen, Parameter, Fairness-Beschränkungen oder andere angewandte
+  Ansätze und Merkmale
+- Paper oder andere Quelle für weitere Informationen
+- Angaben zum Zitat
+- Lizenz
+- Wo können Sie Fragen oder Kommentare zum Modell senden?
 
-## Intended use
-
-_Use cases that were envisioned during development._
+## Verwendungszweck
+Die Use Cases, die während der Entwicklung vorgesehen waren.
 
 Review section 4.2 of the [model cards paper](https://arxiv.org/abs/1810.03993).
 
-### Primary intended uses
+### Hauptverwendungszweck
 
-### Primary intended users
+### Vorrangig vorgesehene Nutzer
 
-### Out-of-scope use cases
+### Out-of-scope Use Cases
 
-## Factors
-
-_Factors could include demographic or phenotypic groups, environmental conditions, technical
-attributes, or others listed in Section 4.3._
+## Faktoren
+Zu den Faktoren können demografische oder phänotypische Gruppen, Umweltbedingungen, technische Eigenschaften oder andere in Abschnitt 4.3 aufgeführte Faktoren gehören.
 
 Review section 4.3 of the [model cards paper](https://arxiv.org/abs/1810.03993).
 
-### Relevant factors
+### Relevante Faktoren
 
-### Evaluation factors
+### Evaluationsfaktoren
 
-## Metrics
-
-_The appropriate metrics to feature in a model card depend on the type of model that is being tested.
-For example, classification systems in which the primary output is a class label differ significantly
-from systems whose primary output is a score. In all cases, the reported metrics should be determined
-based on the model’s structure and intended use._
+## Metriken
+Welche Metriken für eine Modellkarte geeignet sind, hängt von der Art des zu prüfenden Modells ab. Beispielsweise unterscheiden sich Klassifizierungssysteme, bei denen die primäre Ausgabe eine Klassenbezeichnung ist, erheblich von Systemen, deren primäre Ausgabe eine Punktzahl ist. In jedem Fall sollten die berichteten Metriken auf der Grundlage der Struktur und des Verwendungszwecks des Modells bestimmt werden.
 
 Review section 4.4 of the [model cards paper](https://arxiv.org/abs/1810.03993).
 
-### Model performance measures
+### Modellleistungskennzahlen
 
-### Decision thresholds
+### Schwellenwerte für Entscheidungen
 
-### Approaches to uncertainty and variability
+### Ansätze für Unsicherheit und Variabilität
 
-## Evaluation data
+## Evaluationsdaten
 
-_All referenced datasets would ideally point to any set of documents that provide visibility into the
-source and composition of the dataset. Evaluation datasets should include datasets that are publicly
-available for third-party use. These could be existing datasets or new ones provided alongside the model
-card analyses to enable further benchmarking._
+Alle referenzierten Datensätze sollten idealerweise auf eine Reihe von Dokumenten verweisen, die Aufschluss über die Quelle und die Zusammensetzung des Datensatzes geben. Zu den Evaluierungsdatensätzen sollten Datensätze gehören, die für die Nutzung durch Dritte öffentlich zugänglich sind. Dabei kann es sich um bestehende Datensätze oder um neue Datensätze handeln, die zusammen mit den Modellkartenanalysen bereitgestellt werden, um ein weiteres Benchmarking zu ermöglichen.
 
 Review section 4.5 of the [model cards paper](https://arxiv.org/abs/1810.03993).
 
-### Datasets
+### Datensätze
 
 ### Motivation
 
-### Preprocessing
+### Vorverarbeitung
 
-## Training data
+## Trainingsdaten
 
 Review section 4.6 of the [model cards paper](https://arxiv.org/abs/1810.03993).
 
-## Quantitative analyses
-
-_Quantitative analyses should be disaggregated, that is, broken down by the chosen factors. Quantitative
-analyses should provide the results of evaluating the model according to the chosen metrics, providing
-confidence interval values when possible._
+## Quantitative Analysen
+Quantitative Analysen sollten disaggregiert, d.h. nach den gewählten Faktoren aufgeschlüsselt werden. Die quantitativen Analysen sollten die Ergebnisse der Bewertung des Modells nach den gewählten Metriken liefern und, wenn möglich Konfidenzintervallwerte, wenn möglich.
 
 Review section 4.7 of the [model cards paper](https://arxiv.org/abs/1810.03993).
 
-### Unitary results
+### Einheitliche Ergebnisse
 
-### Intersectional result
+### Intersektionelles Ergebnis
 
-## Ethical considerations
+## Ethische Überlegungen
 
-_This section is intended to demonstrate the ethical considerations that went into model development,
-surfacing ethical challenges and solutions to stakeholders. Ethical analysis does not always lead to
-precise solutions, but the process of ethical contemplation is worthwhile to inform on responsible
-practices and next steps in future work._
+Dieser Abschnitt soll die ethischen Überlegungen aufzeigen, die in die Modellentwicklung eingeflossen sind, und den Beteiligten ethische Herausforderungen und Lösungen aufzeigen. Die ethische Analyse führt nicht immer zu präzisen Lösungen, aber der Prozess der ethischen Betrachtung ist lohnenswert, um über verantwortungsvolle Praktiken und die nächsten Schritte in der zukünftigen Arbeit zu informieren.
 
 Review section 4.8 of the [model cards paper](https://arxiv.org/abs/1810.03993).
 
-### Data
+### Daten
 
-### Human life
+### Menschliches Leben
 
-### Mitigations
+### Abhilfemaßnahmen
 
-### Risks and harms
+### Risiken und Schäden
 
-### Use cases
+### Use Cases
 
-## Caveats and recommendations
+## Vorbehalte und Empfehlungen
 
 _This section should list additional concerns that were not covered in the previous sections._
 
