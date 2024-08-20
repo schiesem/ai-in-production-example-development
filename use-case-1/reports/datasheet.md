@@ -1,12 +1,12 @@
 # Datasheet for dataset "BBG: Primererkennung"
 
 - [Motivation](#motivation)
-- [Composition](#composition)
-- [Collection process](#collection-process)
-- [Preprocessing/cleaning/labeling](#preprocessingcleaninglabeling)
-- [Uses](#uses)
-- [Distribution](#distribution)
-- [Maintenance](#maintenance)
+- [Zusammensetzung](#composition)
+- [Erhebungsprozess](#collection-process)
+- [Vorverarbeitung/Bereinigung/Labeling](#preprocessingcleaninglabeling)
+- [Verwendung](#uses)
+- [Verteilung](#distribution)
+- [Wartung](#maintenance)
 
 ## Motivation
 Die Fragen in diesem Abschnitt sollen die Ersteller von Datensätzen in erster Linie dazu ermutigen, ihre Gründe für die Erstellung des Datensatzes klar darzulegen und die Transparenz hinsichtlich der Finanzierungsinteressen zu fördern.
