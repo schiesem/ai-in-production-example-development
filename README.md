@@ -35,14 +35,20 @@ Im zweiten Fallbeispiel werden Zeitreihenanalysen eingesetzt, um den Zustand ein
 
 # How to cite
 
-This guideline is currently in a publishing process as a conference paper.
-In case you want to use the presented use-cases, the guidline or the repo, please cite as:
+This guideline and its use-cases were published as a conference paper. In case you want to use the presented use-cases, the guidline or the repo, please cite as:
 ```
-tbd.
+M. Schieseck, P. Topalis, T. Zech, R. Ortloff, A. Fay, KI in der Produktion: KI vom Konzept zur Realisierung mit Fallbeispielen aus der Qualitäts- und Zustandsüberwachung. In: 25. VDI Automation, Baden-Baden, DE, 2024.
 ```
 If you are using a BiBTex-file, you can copy the following:
 ```
-@inProceedings{tbd.
+@inproceedings{schieseck2024,
+  title = {{KI in der Produktion: KI vom Konzept zur Realisierung mit Fallbeispielen aus der Qualitäts- und Zustandsüberwachung}},
+  booktitle = {Automation 25.},
+  author = {Schieseck, Marvin and Topalis, Philip and Zech, Tom and Ortloff, Richard and Fay, Alexander},
+  year = {2024},
+  pages = {303–-306},
+  publisher = {{VDI Verlag}},
+  doi={10.51202/9783181024379} 
 }
 ```
 
