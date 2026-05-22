@@ -1,5 +1,5 @@
 # KI in der Produktion - Leitfaden und Beispielentwicklung
-Dieses Repo stellt einen Leitfaden und zwei Fallbeispiele für die Entwicklung von KI in Produktionssystemen bereit.
+Dieses Repo stellt einen Leitfaden und zwei Prototypen (Fallbeispiele) für die Entwicklung von KI in Produktionssystemen bereit.
 
 > [!CAUTION]
 > This project is still in very early stages of development. Use at your own risk.
@@ -7,9 +7,9 @@ Dieses Repo stellt einen Leitfaden und zwei Fallbeispiele für die Entwicklung v
 ## Leitfaden und Nutzung
 Zur Entwicklung von KI-Anwendungen in der Produktion wird zunächst das folgende [Projekt Folder Template](templates/folder-structure)[^1] für die Ordnerstruktur empfohlen. Für den Entwicklungsprozess empfielt das Prozessmodell aus Abb.1 einzelne Schritte die in Abb. 3 genauer spezifiziert werden. Der Ist-Stand der Anlage und die KI-Anwendung sollten mit dem [grafischen Beschreibungsmittel](https://github.com/schiesem/GML-AIAAS)[^2] modelliert werden. Die Informationen über die verwendeten Daten sollten mit einem [Data Sheet Template](templates/datasheets/datasheet-for-dataset-template.md)[^3] und die Infomrationen über das verwendete Modell mit einem [Model Card Template](templates/modelcards/model-card-template.md)[^4] festgehalten werden.
 
-Zwei Fallbeispiele für die Umsetzung einer Exemplarischen Entwicklung finden sich hier
-- [Project-Folder Fallbeispiel 1](use-case-1)
-- [Project-Folder Fallbeispiel 2](use-case-2)
+Zwei Prototypen für die Umsetzung einer Exemplarischen Entwicklung finden sich hier
+- [Project-Folder Prototyp 1](use-case-1)
+- [Project-Folder Prototyp 2](use-case-2)
 
 | <img src="/templates/figures/figures-DMME.png" width="450"/>|
 |:--:|
@@ -19,16 +19,16 @@ Zwei Fallbeispiele für die Umsetzung einer Exemplarischen Entwicklung finden si
 |:--:|
 | Abb.2: Details zu den einzelnen DMME Schritten|
 
-## Fallbeispiel 1
-Im ersten Fallbeispiel wird Computer Vision eingesetzt, um die Qualität von Bauteilen innerhalb einer Produktionslinie zu überwachen.
-- [README Fallbeispiel 1](use-case-1/README.md)
+## Prototyp 1
+Im ersten Prototyp wird Computer Vision eingesetzt, um die Qualität von Bauteilen innerhalb einer Produktionslinie zu überwachen.
+- [README Prototyp 1](use-case-1/README.md)
 - [Code-Übersicht Jupyter Notebook](tbd.)
 - [Datasheet](use-case-1/reports/datasheet.md)
 - [Modelcard](use-case-1/reports/model-card.md)
 
-## Fallbeispiel 2
-Im zweiten Fallbeispiel werden Zeitreihenanalysen eingesetzt, um den Zustand einer Produktionsanlage zu überwachen.
-- [README Fallbeispiel 2](use-case-2/README.md)
+## Prototyp 2
+Im zweiten Prototyp werden Zeitreihenanalysen eingesetzt, um den Zustand einer Produktionsanlage zu überwachen.
+- [README Prototyp 2](use-case-2/README.md)
 - [Code-Übersicht Jupyter Notebook](use-case-2/notebooks/project.ipynb)
 - [Datasheet](use-case-2/reports/datasheet.md)
 - [Modelcard](use-case-2/reports/model-card.md)
